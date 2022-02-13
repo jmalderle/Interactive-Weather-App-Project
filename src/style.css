@@ -10,11 +10,11 @@
     rgb(239, 246, 249) 0%,
     rgb(206, 239, 253) 90%
   );
-  /*background: radial-gradient(
-    circle at 0.7% 1%,
-    rgb(215, 248, 247) 0%,
-    rgb(102, 188, 239) 100.2%
-  );*/
+}
+
+.search-form {
+  display: block;
+  margin: 0 auto;
 }
 h1,
 h2,
@@ -35,29 +35,6 @@ h2 {
 .current-date {
   position: relative;
   padding-left: 10px;
-}
-
-/*To the person reviewing my homework. I couldn’t get the input text field to align with the search bar.
-I tried and tried and I had no time to ask for help on slack, so I have to send it like this. :( */
-
-input {
-  margin: 0 auto;
-  border-width: 1.5px;
-  border-radius: 120px;
-  border-style: solid;
-  padding: 5px 56px;
-  max-width: 350px;
-  font-size: 15px;
-  background: none;
-  text-align: center;
-  /* text-align: center;
-  display: block;
-  padding: 0px 100px;
-  font-size: 18px;
-  background: none;
-  border: none;
-  border-radius: 120px;
-  margin: 0 auto;*/
 }
 
 .current-location,
