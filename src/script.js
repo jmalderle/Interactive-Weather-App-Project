@@ -28,6 +28,6 @@ let day = days[now.getDay()];
 let month = months[now.getMonth()];
 
 let todaysDate = document.querySelector(".current-date");
-todaysDate.innerHTML = `Today is ${day}, ${month} ${now.getDate()}, ${now.getFullYear()}`;
+todaysDate.innerHTML = `It’s ${day},  ${now.getDate()}. ${month} of ${now.getFullYear()}`;
 
 console.log(todaysDate);
