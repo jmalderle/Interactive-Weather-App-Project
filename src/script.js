@@ -56,9 +56,9 @@ searchForm.addEventListener("submit", locateCityWeather);
 
 function showCurrentTemp(response) {
   console.log();
-  let tempForSearchInput = document.querySelector("#temperature");
+  let tempForSearchInput = document.querySelector(".current-temperature");
   tempForSearchInput.innerHTML = `${Math.round(response.data.main.temp)}°`;
-  let currentCity = document.querySelector("h1");
+  let currentCity = document.querySelector(".current-city");
   currentCity.innerHTML = `${response.data.name}`;
 }
 
