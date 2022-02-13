@@ -27,35 +27,36 @@
   <body>
     <div class="container">
       <h1 class="current-date">Today is Friday, 07. February of 2022</h1>
-      <form class="search-form">
-        <div class="col-6">
-          <input
-            type="search"
-            placeholder="Type a city.."
-            autofocus="on"
-            autocomplete="off"
-            class="form-control shadow-sm"
-            id="search-input"
-          />
-        </div>
-        <div class="col-3">
-          <input
-            type="submit"
-            value="Search"
-            class="form-control btn btn-primary shadow-sm"
-          />
-        </div>
-        <div class="col-3">
-          <button
-            type="button"
-            class="btn btn-success w-100"
-            id="current-location-button"
-          >
-            Current
-          </button>
-        </div>
-      </form>
-
+      <div class="row">
+        <form class="search-form">
+          <div class="col-4">
+            <input
+              type="search"
+              placeholder="Type a city.."
+              autofocus="on"
+              autocomplete="off"
+              class="form-control shadow-sm"
+              id="search-input"
+            />
+          </div>
+          <div class="col-4">
+            <input
+              type="submit"
+              value="Search"
+              class="form-control btn btn-primary shadow-sm"
+            />
+          </div>
+          <div class="col-4">
+            <button
+              type="button"
+              class="btn btn-success w-100"
+              id="current-location-button"
+            >
+              Current
+            </button>
+          </div>
+        </form>
+      </div>
       <h3>
         At this current moment, <span class="weather-type">it’s rainy </span
         ><br />
