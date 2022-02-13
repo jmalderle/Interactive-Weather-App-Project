@@ -26,76 +26,78 @@
   </head>
   <body>
     <div class="container">
-      <h1 class="current-date">Today is Friday, 07. February of 2022</h1>
-      <div class="row">
-        <form class="search-form">
-          <div class="col-4">
-            <input
-              type="search"
-              placeholder="Type a city.."
-              autofocus="on"
-              autocomplete="off"
-              class="form-control shadow-sm"
-              id="search-input"
-            />
-          </div>
-          <div class="col-4">
-            <input
-              type="submit"
-              value="Search"
-              class="form-control btn btn-primary shadow-sm"
-            />
-          </div>
-          <div class="col-4">
-            <button
-              type="button"
-              class="btn btn-success w-100"
-              id="current-location-button"
-            >
-              Current
-            </button>
-          </div>
-        </form>
+      <div class="weather-app">
+        <h1 class="current-date">Today is Friday, 07. February of 2022</h1>
+        <div class="row">
+          <form class="search-form">
+            <div class="col-4">
+              <input
+                type="search"
+                placeholder="Type a city.."
+                autofocus="on"
+                autocomplete="off"
+                class="form-control shadow-sm"
+                id="search-input"
+              />
+            </div>
+            <div class="col-2">
+              <input
+                type="submit"
+                value="Search"
+                class="form-control btn btn-primary shadow-sm"
+              />
+            </div>
+            <div class="col-1">
+              <button
+                type="button"
+                class="btn btn-success w-100"
+                id="current-location-button"
+              >
+                Current
+              </button>
+            </div>
+          </form>
+        </div>
+        <h3>
+          At this current moment, <span class="weather-type">it’s rainy </span
+          ><br />
+          in <span class="current-location">Göttingen, Germany</span>
+        </h3>
+        <br />
+        <img src="media/cloud.png" class="cloud-background" alt="cloud" />
+        <div class="current-temperature">9° C</div>
+        <br />
+        <br />
+        <h3 class="forecast">Weather forecast for the next 5 days</h3>
+        <div class="row days-ahead">
+          <div class="col">Saturday</div>
+          <div class="col">Sunday</div>
+          <div class="col">Monday</div>
+          <div class="col">Tuesday</div>
+          <div class="col">Wednesday</div>
+        </div>
+        <div class="row" id="weather-icons">
+          <div class="col"><i class="fas fa-sun"></i></div>
+          <div class="col"><i class="fas fa-cloud-sun"></i></div>
+          <div class="col"><i class="fas fa-cloud"></i></div>
+          <div class="col"><i class="fas fa-cloud-showers-heavy"></i></div>
+          <div class="col"><i class="far fa-snowflake"></i></div>
+        </div>
+        <div class="row">
+          <div class="col">15°</div>
+          <div class="col">9°</div>
+          <div class="col">4°</div>
+          <div class="col">0°</div>
+          <div class="col">-2°</div>
+        </div>
       </div>
-      <h3>
-        At this current moment, <span class="weather-type">it’s rainy </span
-        ><br />
-        in <span class="current-location">Göttingen, Germany</span>
-      </h3>
-      <br />
-      <img src="media/cloud.png" class="cloud-background" alt="cloud" />
-      <div class="current-temperature">9° C</div>
-      <br />
-      <br />
-      <h3 class="forecast">Weather forecast for the next 5 days</h3>
-      <div class="row days-ahead">
-        <div class="col">Saturday</div>
-        <div class="col">Sunday</div>
-        <div class="col">Monday</div>
-        <div class="col">Tuesday</div>
-        <div class="col">Wednesday</div>
-      </div>
-      <div class="row" id="weather-icons">
-        <div class="col"><i class="fas fa-sun"></i></div>
-        <div class="col"><i class="fas fa-cloud-sun"></i></div>
-        <div class="col"><i class="fas fa-cloud"></i></div>
-        <div class="col"><i class="fas fa-cloud-showers-heavy"></i></div>
-        <div class="col"><i class="far fa-snowflake"></i></div>
-      </div>
-      <div class="row">
-        <div class="col">15°</div>
-        <div class="col">9°</div>
-        <div class="col">4°</div>
-        <div class="col">0°</div>
-        <div class="col">-2°</div>
-      </div>
+      <p id="credit">
+        <a href="https://github.com/jmalderle" target="blank" rel="noreferrer"
+          >Open Source</a
+        >
+        code by Jana
+      </p>
     </div>
-    <p id="credit">
-      <a href="https://github.com/jmalderle" target="blank" rel="noreferrer"
-        >Open Source</a
-      >
-      code by Jana
-    </p>
     <script src="src/script.js"></script>
   </body>
 </html>
