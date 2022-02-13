@@ -30,4 +30,6 @@ let month = months[now.getMonth()];
 let todaysDate = document.querySelector(".current-date");
 todaysDate.innerHTML = `It’s ${day},  ${now.getDate()}. ${month} of ${now.getFullYear()}`;
 
-console.log(todaysDate);
+let searchForm = document.querySelector(".search-form");
+
+searchForm.addEventListener("submit", locateCityWeather);
