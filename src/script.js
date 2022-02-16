@@ -61,7 +61,7 @@ function showCurrentTemp(response) {
   let currentCity = document.querySelector(".current-city");
   currentCity.innerHTML = `${response.data.name}`;
   let weatherType = document.querySelector(".weather-type");
-  weatherType.innerHTML = `${response.data.weather.description}`;
+  weatherType.innerHTML = `${response.data.weather.main}`;
 }
 
 function showPosition(position) {
