@@ -60,6 +60,8 @@ function showCurrentTemp(response) {
   tempForSearchInput.innerHTML = `${Math.round(response.data.main.temp)}°`;
   let currentCity = document.querySelector(".current-city");
   currentCity.innerHTML = `${response.data.name}`;
+  let weatherType = document.querySelector(".weather-type");
+  weatherType.innerHTML = `${Math.round(response.data.weather.description)}`;
 }
 
 function showPosition(position) {
