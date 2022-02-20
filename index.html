@@ -38,7 +38,7 @@
                 autofocus="on"
                 autocomplete="off"
                 class="form-control shadow-sm"
-                id="search-input"
+                id="city-input"
               />
             </div>
             <div class="col-3">
@@ -62,13 +62,16 @@
           </div>
         </form>
         <h3>
-          <span class="weather-type"></span><br />
-          in <span class="current-city">Göttingen</span>
+          <span class="weather-type" id="description"></span><br />
+          in <span class="current-city" id="city">Göttingen</span>
         </h3>
         <br />
         <img src="media/cloud.png" class="cloud-background" alt="cloud" />
-        <div class="current-temperature">9</div>
-        <span class="units">°C | <a href="#" id="fahrenheit-link">°F</a></span>
+        <div class="current-temperature" id="temperature">9</div>
+        <span class="units"
+          ><a href="#" id="celsius-link">°C</a> |
+          <a href="#" id="fahrenheit-link">°F</a></span
+        >
         <br />
         <br />
         <h3 class="forecast">Weather forecast for the next 5 days</h3>
