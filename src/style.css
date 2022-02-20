@@ -46,6 +46,7 @@ h2 {
 #fahrenheit-link,
 #celsius-link {
   text-decoration: none;
+  cursor: default;
 }
 
 .fa-cloud-showers-heavy {
@@ -73,6 +74,15 @@ h2 {
   margin-top: -40px;
   margin-left: 112px;
   color: orange;
+}
+
+.units .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+
+.units .active:hover {
+  text-decoration: none;
 }
 
 .forecast {
