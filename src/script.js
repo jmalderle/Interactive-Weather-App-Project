@@ -10,30 +10,16 @@ function formatDate(timestamp) {
   }
 
   let days = [
-    "Sunday",
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday",
-  ];
-  let months = [
-    "January",
-    "February",
-    "March",
-    "April",
-    "May",
-    "June",
-    "July",
-    "September",
-    "October",
-    "November",
-    "December",
+    "Funday! Ehh… Sunday!",
+    "Monday, have a grreat start!",
+    "Tiddely-Tuesday!",
+    "pheeew, already Wednesday!",
+    "Thurssssday",
+    "finally Friday!",
+    "another sweet Saturday",
   ];
 
   let day = days[date.getDay()];
-  let months = months[now.getMonth()];
   return `${day} ${hours}:${minutes}`;
 }
 
