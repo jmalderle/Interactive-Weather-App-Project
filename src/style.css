@@ -94,3 +94,8 @@ a:visited {
   color: rgb(158, 158, 158);
   text-decoration-color: rgb(158, 158, 158);
 }
+
+a:hover {
+  color: rgb(235, 46, 241);
+  text-decoration-color: rgb(235, 46, 241);
+}
