@@ -68,10 +68,10 @@ function displayTemp(response) {
   let tempElement = document.querySelector("#temperature");
   let cityElement = document.querySelector("#city");
   let descriptionElement = document.querySelector("#description");
-  let humidityElement = document.querySelector("#humidity"); // noch nicht
-  let windElement = document.querySelector("#wind"); // noch nichht
-  let dateElement = document.querySelector("#date"); // noch nicht
-  let iconElement = document.querySelector("#icon"); // noch nicht
+  let humidityElement = document.querySelector("#humidity");
+  let windElement = document.querySelector("#wind");
+  let dateElement = document.querySelector("#date");
+  let iconElement = document.querySelector("#icon");
 
   celsiusTemp = response.data.main.temp;
 
