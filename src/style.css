@@ -1,13 +1,14 @@
 body {
-  font-family: "Cormorant Garamond" serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 h1 {
-  color: #878787;
+  color: #1b1b1b;
   font-size: 24px;
   font-weight: normal;
   line-height: 28px;
   margin-bottom: 0;
+  font-family: "Cormorant Garamond", serif;
 }
 
 ul {
@@ -32,13 +33,14 @@ li:first-letter {
 
 .weather-app-wrapper {
   max-width: 600px;
-  margin: 30px auto;
+  margin: 70px auto;
 }
 
 .weather-app {
   padding: 20px;
-  border: 1px solid #dadde1;
+  border: 1px solid rgb(240, 240, 240);
   border-radius: 5px;
+  background-color: #fff;
 }
 
 .overview {
@@ -62,6 +64,12 @@ li:first-letter {
   position: relative;
   font-size: 16px;
   top: -34px;
+  color: rgb(135, 135, 135);
+}
+
+#fahrenheit-link,
+#celsius-link {
+  text-decoration: none;
 }
 
 .weather-temperature .active {
@@ -71,4 +79,18 @@ li:first-letter {
 
 .weather-temperature .active:hover {
   text-decoration: none;
+}
+
+.credits {
+  color: rgb(135, 135, 135);
+}
+
+a:link {
+  color: rgb(135, 135, 135);
+  text-decoration-color: rgb(135, 135, 135);
+}
+
+a:visited {
+  color: rgb(158, 158, 158);
+  text-decoration-color: rgb(158, 158, 158);
 }
