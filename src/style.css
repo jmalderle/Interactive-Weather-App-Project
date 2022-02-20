@@ -43,6 +43,12 @@ h2 {
   font-style: italic;
 }
 
+.weather-temperature img {
+  margin: 0 auto;
+  height: 64px;
+  width: 64px;
+}
+
 #fahrenheit-link,
 #celsius-link {
   text-decoration: none;
