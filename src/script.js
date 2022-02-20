@@ -33,7 +33,7 @@ function formatDate(timestamp) {
   ];
 
   let day = days[date.getDay()];
-  let month = months[now.getMonth()];
+  let months = months[now.getMonth()];
   return `${day} ${hours}:${minutes}`;
 }
 
